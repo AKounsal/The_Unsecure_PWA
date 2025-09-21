@@ -10,3 +10,4 @@ requests
 matplotlib
 rich
 email-validator
+test
