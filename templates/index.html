@@ -24,6 +24,7 @@
   <div class="input__wrapper">
     <input type="submit" class="btn" value="Log In" />
   </div>
+  <input type="hidden" name="csrf_token" value = "{{ csrf_token() }}" />
 </form>
 <!-- User message -->
 {% if msg %}
