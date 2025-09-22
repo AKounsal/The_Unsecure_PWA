@@ -8,6 +8,7 @@
   <div class="input__wrapper">
     <input type="submit" class="btn" value="Submit Feedback" />
   </div>
+  <input type="hidden" name="csrf_token" value = "{{ csrf_token() }}" />
 </form>
 <hr/>
   <br/>
